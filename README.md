@@ -14,6 +14,13 @@ Running the app:
 python manage.py runserver
 
 
+Unit test steps:
+        1.Import django.test.TestCase class in tests.py under app folder
+        2.install the unittest module for unit test.
+        3.Create a subclass of django.test.TestCase.
+        4.Add test functions in django test class
+
+
 
 
 
