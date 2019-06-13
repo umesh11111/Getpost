@@ -30,6 +30,4 @@ def postrequest(request):
     return HttpResponse(request, json_data, content_type='application/json')
 
 
-from django.shortcuts import render
 
-# Create your views here.
